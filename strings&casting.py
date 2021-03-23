@@ -27,12 +27,34 @@
 # print(len(white_space))
 # print(len(white_space.strip()))
 
-Example_text = "here's Some text with lot's of text"
-#print(Example_text.count("text"))
-# Counts the number of times the word is mentioned in the statement
-print(Example_text)
-print(Example_text.upper())
-print(Example_text.lower())
-print(Example_text.capitalize()) # Capitalises first letter of the string
-print(Example_text.replace("with", ","))
-# will replace the word "with" , in this case
+# Example_text = "here's Some text with lot's of text"
+# #print(Example_text.count("text"))
+# # Counts the number of times the word is mentioned in the statement
+# print(Example_text)
+# print(Example_text.upper())
+# print(Example_text.lower())
+# print(Example_text.capitalize()) # Capitalises first letter of the string
+# print(Example_text.replace("with", ","))
+# # will replace the word "with" , in this case
+
+# Concatenation and Casting
+
+First_Name = "James"
+Last_Name = "Bond"
+age = 99 # int
+#print(First_Name + " " + Last_Name + " " + str(age))
+#print(type(int(age)))
+
+# F- String is an amazing Magical formatting f
+print(f"Your First Name is {First_Name} and Last Name is {Last_Name} and you are {age} old")
+
+
+
+
+
+
+
+
+
+
+
